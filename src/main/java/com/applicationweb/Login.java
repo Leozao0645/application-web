@@ -1,5 +1,6 @@
 package com.applicationweb.domain;
 
+@Data //Instalar Lombok no Intellij
 public class Login {
 
   private String nome;
