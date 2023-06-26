@@ -8,9 +8,17 @@ Este repositório é responsável por armazenar o backend das APIs feitas em Jav
 
 - https://start.spring.io/
 
-## Subindo Conteiner MySQL
+## Conteiner MySQL
 
-Para subir o conteiner do banco de dados, rodar comando:
+Para criar o conteiner do banco de dados dentro do arquivo docker-compose.yml, rodar comando:
 
 docker-compose up -d
+
+Para iniciar os serviços, rodar o comando:
+
+docker compose start
+
+Para parar os serviços, rodar o comando:
+
+docker compose stop
 
