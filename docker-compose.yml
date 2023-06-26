@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  db:
+    image: mysql:latest
+    container_name: mysql-container
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: dbusuarios
+      MYSQL_ROOT_PASSWORD: Admin#0645
+    ports:
+      - "3306:3306"
+    volumes:
+      - C:\Users\leona\Documents\Programas\mysql-workbench\db-volumes:/var/lib/mysql
