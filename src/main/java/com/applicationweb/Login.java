@@ -1,6 +1,8 @@
 package com.applicationweb.domain;
 
 @Data //Instalar Lombok no Intellij
+@NoArgsConstructor
+@AllArgsConstructor
 public class Login {
 
   private String nome;
