@@ -12,7 +12,7 @@ Este repositório é responsável por armazenar o backend das APIs feitas em Jav
 
 Para criar o conteiner do banco de dados dentro do arquivo docker-compose.yml, rodar comando:
 
-docker-compose up -d
+docker compose up -d
 
 Para iniciar os serviços, rodar o comando:
 
